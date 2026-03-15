@@ -554,7 +554,7 @@ class EditorEquspedia(QMainWindow):
             """
             self.browser.page().runJavaScript(js_update)
 
-    # --- AUTO DETECCIÓN DE FORMATO (E INYECCIÓN DE CORRECCIÓN DE TÍTULO VACÍO) ---
+    # --- AUTO DETECCIÓN DE FORMATO ---
     def detectar_formato_actual(self):
         if self.stack.currentIndex() != 0: return
 
